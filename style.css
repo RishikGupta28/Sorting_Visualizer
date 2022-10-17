@@ -1,0 +1,63 @@
+:root {
+    --width:40px;
+  }
+  
+  
+  .container-fluid {
+    padding: 1% 2% 0 2%;
+    text-align: left;
+  }
+  
+  body {
+    background-color: #232327;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    zoom: 75%;
+  }
+  
+  .navItemsList {
+    margin-left: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .appName {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  
+  .newArray {
+    margin-right: 2rem;
+  }
+  
+  .navDropdown {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  
+  .barsCon {
+    margin-top: 5%;
+    height: 70vh;
+  }
+  
+  
+  .btn-lg {
+    font-size: 1.75rem;
+    border-radius: 50px;
+    box-shadow: 5px 3px #888888;
+    font-weight: bold;
+    width: 225px;
+  }
+  
+  .bar {
+    width: var(--width);
+    background-color: rgb(255, 250, 250);
+    margin-right: 2px;
+    margin-left: 5px;
+    display: inline-block;
+    border-radius: 50px;
+    box-shadow: 3px 5px #4b0f0f;
+    transition: ease-out 0.3s;
+  }
+  
